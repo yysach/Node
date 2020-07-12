@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello world</title>
+    </head>
+    <body>
+        <h1>Hello welcome to profle of <%= person  %></h1>
+        <h3>Age : <%= data.age %></h3>
+        <h3>Job : <%= data.job %></h3>
+        <h3>Hobbies are :</h3>
+        <ul>
+            <% data.hobbies.forEach(function(item){ %>
+                <li><%= item %></li>  
+            <% }) %>
+        </ul>
+    </body>
+</html>

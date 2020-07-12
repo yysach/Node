@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello world</title>
+    </head>
+    <body>
+        <p>
+            
+            
+            <form id="contact-form",method ='POST',action="/contact">
+                <fieldset>
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname" value="<%= qs.fname %>"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname" value="<%= qs.lname %>"><br><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+        </p>
+    </body>
+</html>
