@@ -1,0 +1,24 @@
+What is mongoDB?
+MongoDB is one of the most popular document-oriented databases under the banner of NoSQL database.
+It employs the format of key-value pairs, here called document store. Document stores in MongoDB are created is stored in BSON files which are, in fact, a little-modified version of JSON files and hence all JS are supported.
+Because of this, it is frequently used for Node.js projects. Moreover, JSON facilitates the exchange of data between web apps and servers in a human-readable format.
+Not only that, it offers greater efficiency and reliability which in turn can meet your storage capacity and speed demands.
+On top of it, the schema-free implementation of MongoDB eliminates the prerequisites of defining a fixed structure. These models allow hierarchical relationships representation and facilitate the ability to change the structure of the record.
+Also, this NoSQL solution is added to the benefits of auto-sharding, embedding and on-board replication which in turn provides high scalability and availability.
+
+
+
+What is mysql?
+MySQL is an open-source relational database management system RDBMS. It was originally built by MySQL AB though presently owned by Oracle.
+It employs the concept of storing data in rows and tables which are further classified into the database. It uses Structured Query Language SQL to access and transfer the data and commands such as “SELECT’, ‘UPDATE’, ‘INSERT’ and ‘DELETE’ to manage it.
+Related information is stored in different tables but the concept of JOIN operations simplifies the process of correlating it and performing queries across multiple tables and minimize the chances of data duplication.
+Though, MySQL’s limitations are the same as of relational databases. Millions of read/write highly affects the performance and hence horizontal scaling is not quite easy.
+
+
+
+
+MongoDB vs MySQL
+MongoDB: One of the best things about MongoDB is that there are no restrictions on schema design. You can just drop a couple of documents within a collection and it isn’t necessary to have any relation to those documents. The only restriction with this is supported data structures.
+Though, due to the absence of joins and transactions (which we will discuss later), you need to frequently optimize your schema based on how the application will be accessing the data.
+MySQL: Before you can store anything in MySQL, you need to clearly define tables and columns and also, every row in the table should have the same column.
+And because of this, there isn’t much space for flexibility in the manner of storing data if you follow normalization. Development and deployment process is slowed down as well due to the fact that even a little modification in data model mandates the change in schema design.
